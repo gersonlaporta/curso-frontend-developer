@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: grey;
+    }
+
+    /*p:first-child {
+        color: pink;
+    }
+
+    p:last-child {
+        color: brwon;
+    }*/
+    
+    p:nth-child(2n) {
+        color:red;
+    }
+
+    p:nth-child(2n+1) {
+        color: blue;
+    }
+
+    p::first-letter{
+        color: green;
+        font-size: 20px;
+    }
+</style>
+<body>
+    <p>Rabbit</p>
+    <p>🐶 Dog</p>
+    <p>🐮 Cow</p>
+    <p>🐸 Frog</p>
+    <p>🦊 Fox</p>
+</body>
+</html>
+
+🐰 Rabbit
+🐶 Dog
+🐮 Cow
+🐸 Frog
+🦊 Fox
